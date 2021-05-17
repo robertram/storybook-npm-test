@@ -1,5 +1,5 @@
 import React from 'react';
-import './button.css';
+import './button2.scss';
 
 export const Button2 = ({ primary, backgroundColor, size, label, ...props }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';

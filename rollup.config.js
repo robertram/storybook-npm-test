@@ -4,6 +4,7 @@ import external from 'rollup-plugin-peer-deps-external';
 import postcss from 'rollup-plugin-postcss';
 import typescript from "rollup-plugin-typescript2";
 import { terser } from 'rollup-plugin-terser';
+import copy from "rollup-plugin-copy";
 
 export default [
   {
@@ -33,7 +34,21 @@ export default [
       external(),
       resolve(),
       typescript({ useTsconfigDeclarationDir: true }),
-      terser()
+      terser(),
+      copy({
+        targets: [
+          {
+            src: "src/styles/variables.scss",
+            dest: "dist",
+            rename: "styles/variables.scss"
+          },
+          {
+            src: "src/styles/global.scss",
+            dest: "dist",
+            rename: "styles/global.scss"
+          }
+        ]
+      })
     ]
 
   }
