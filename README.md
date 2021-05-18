@@ -1,16 +1,22 @@
-# Library usage documentation for the developer
+# Storybook-npm-test 
 
-## Scripts
+## Library usage documentation for the developer
 
-### `npm run build-lib`
+### Scripts
+
+#### `npm run build-lib`
 
 Runs the bundle script with rollup.js
 
-### `npm publish`
+#### `npm publish`
 
 Publish the package to npm. Remember to change the version of the package.
 
 
-# Library usage documentation for the users
+## Library usage documentation for the users
 
-### `npm i storybook-npm`
+### Instalation
+
+```sh 
+npm i storybook-npm-test
+```
