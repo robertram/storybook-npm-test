@@ -6,6 +6,10 @@
   cursor: pointer;
   display: inline-block;
   line-height: 1;
+  &:hover{
+    background-color: #0f4769;
+    color: white;
+  }
 }
 .storybook-button--primary {
   color: white;
