@@ -1,4 +1,4 @@
-# Storybook-npm-test 
+# Storybook-npm-test
 
 ## Library usage documentation for the developer
 
@@ -12,11 +12,14 @@ Runs the bundle script with rollup.js
 
 Publish the package to npm. Remember to change the version of the package.
 
+#### `npm run test:watch`
+
+Run test library
 
 ## Library usage documentation for the users
 
 ### Instalation
 
-```sh 
+```sh
 npm i storybook-npm-test
 ```
