@@ -1,0 +1,190 @@
+$heading3-size: 20px;
+$regular-size: 16px;
+$primary-font: 'Poppins';
+
+$typography-variables: (
+  'heading1-desk': (
+    'font-family': $primary-font,
+    'font-size': 60px,
+    'font-weight': bold,
+    'letter-spacing': -1.76px
+  ),
+  'heading1-mob': (
+    'font-family': $primary-font,
+    'font-size': 30px,
+    'font-weight': bold,
+    'letter-spacing': -0.88px,
+    'line-height': 40px
+  ),
+  'heading2-desk': (
+    'font-family': $primary-font,
+    'font-size': 40px,
+    'font-weight': bold,
+    'letter-spacing': -1.18px,
+    'line-height': 52px
+  ),
+  'heading2-mob': (
+    'font-family': $primary-font,
+    'font-size': 24px,
+    'font-weight': bold,
+    'letter-spacing': -0.71px,
+    'line-height': 30px
+  ),
+  'heading3-desk': (
+    'font-size': 28px,
+    'font-family': $primary-font,
+    'font-weight': bold,
+    'letter-spacing': -0.82px,
+    'line-height': 34px
+  ),
+  'heading3-mob': (
+    'font-size': 20px,
+    'font-family': $primary-font,
+    'font-weight': bold,
+    'letter-spacing': -0.59px,
+    'line-height': 26px
+  ),
+  'heading4-desk': (
+    'font-size': 24px,
+    'font-family': $primary-font,
+    'font-weight': bold,
+    'letter-spacing': -0.71px,
+    'line-height': 30px
+  ),
+  'heading4-mob': (
+    'font-size': 16px,
+    'font-family': $primary-font,
+    'font-weight': bold,
+    'letter-spacing': -0.47px,
+    'line-height': 22px
+  ),
+  'subtitle-desk': (
+    'font-family': $primary-font,
+    'font-size': 16px,
+    'font-weight': 600,
+    'letter-spacing': 3px,
+    'line-height': 22px,
+    'text-transform': uppercase
+  ),
+  'subtitle-mob': (
+    'font-family': $primary-font,
+    'font-size': 12px,
+    'font-weight': 600,
+    'letter-spacing': 2.25px,
+    'line-height': 18px,
+    'text-transform': uppercase
+  ),
+  'body-lg-regular': (
+    'font-family': $primary-font,
+    'font-size': 20px,
+    'font-weight': normal,
+    'letter-spacing': -0.59px,
+    'line-height': 34px
+  ),
+  'body-lg-bold': (
+    'font-family': $primary-font,
+    'font-size': 20px,
+    'font-weight': bold,
+    'letter-spacing': -0.59px,
+    'line-height': 34px
+  ),
+  'body-lg-italic': (
+    'font-family': $primary-font,
+    'font-style': italic,
+    'font-size': 20px,
+    'font-weight': normal,
+    'letter-spacing': -0.59px,
+    'line-height': 34px
+  ),
+  'body-md-regular': (
+    'font-family': $primary-font,
+    'font-size': 16px,
+    'font-weight': normal,
+    'letter-spacing': -0.47px,
+    'line-height': 26px
+  ),
+  'body-md-bold': (
+    'font-family': $primary-font,
+    'font-size': 16px,
+    'font-weight': bold,
+    'letter-spacing': -0.47px,
+    'line-height': 27px
+  ),
+  'body-md-italic': (
+    'font-family': $primary-font,
+    'font-style': italic,
+    'font-size': 16px,
+    'font-weight': normal,
+    'letter-spacing': -0.47px,
+    'line-height': 27px
+  ),
+  'body-sm-regular': (
+    'font-family': $primary-font,
+    'font-size': 14px,
+    'font-weight': normal,
+    'letter-spacing': -0.41px,
+    'line-height': 24px
+  ),
+  'body-sm-bold': (
+    'font-family': $primary-font,
+    'font-size': 14px,
+    'font-weight': bold,
+    'letter-spacing': -0.41px,
+    'line-height': 30px
+  ),
+  'body-sm-italic': (
+    'font-family': $primary-font,
+    'font-style': italic,
+    'font-size': 14px,
+    'font-weight': normal,
+    'letter-spacing': -0.41px,
+    'line-height': 30px
+  ),
+  'body-sm-underline': (
+    'font-family': $primary-font,
+    'font-size': 14px,
+    'font-weight': normal,
+    'letter-spacing': -0.41px,
+    'line-height': 24px,
+    'text-decoration': underline
+  ),
+  'button-primary-l': (
+    'font-family': $primary-font,
+    'font-size': 16px,
+    'font-weight': bold,
+    'letter-spacing': 0,
+    'line-height': 22px,
+    'text-align': center
+  ),
+  'button-primary-m': (
+    'font-family': $primary-font,
+    'font-size': 14px,
+    'font-weight': bold,
+    'letter-spacing': 0,
+    'line-height': 22px,
+    'text-align': center
+  ),
+  'button-primary-s': (
+    'font-family': $primary-font,
+    'font-size': 12px,
+    'font-weight': bold,
+    'letter-spacing': 0,
+    'line-height': 15.71px,
+    'text-align': center
+  ),
+  'button-underline': (
+    'font-family': $primary-font,
+    'font-size': 16px,
+    'font-weight': normal,
+    'letter-spacing': -0.47px,
+    'line-height': 30px,
+    'text-decoration': underline
+  ),
+  'alert': (
+    'font-family': $primary-font,
+    'font-size': 16px,
+    'font-weight': normal,
+    'letter-spacing': -0.47px,
+    'line-height': 30px
+  )
+);

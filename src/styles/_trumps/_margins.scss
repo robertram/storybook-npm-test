@@ -1,0 +1,52 @@
+.u-margin-4x {
+  margin: spacing(4);
+}
+
+.u-padding-4x {
+  padding: spacing(4);
+}
+
+.u-margin-bottom-4x {
+  margin-bottom: spacing(4);
+}
+
+$start: 1;
+$end: 8;
+
+@for $i from $start through $end {
+  .u-margin-bottom-#{$i}x {
+    margin-bottom: spacing($i);
+  }
+
+  .u-margin-bottom-#{$i}x-desktop {
+    @include sm {
+      margin-bottom: spacing($i);
+    }
+  }
+}
+
+@for $i from $start through $end {
+  .u-margin-top-#{$i}x {
+    margin-top: spacing($i);
+  }
+
+  .u-margin-top-#{$i}x-desktop {
+    @include sm {
+      margin-top: spacing($i);
+    }
+  }
+}
+
+@for $i from $start through $end {
+  .u-padding-vertical-#{$i}x {
+    padding-top: spacing($i);
+    padding-bottom: spacing($i);
+  }
+}
+
+@for $i from $start through $end {
+  .u-margin-vertical-#{$i}x {
+    margin-top: spacing($i);
+    margin-bottom: spacing($i);
+  }
+}

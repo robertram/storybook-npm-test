@@ -1,34 +1,102 @@
-.storybook-button {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  border: 0;
-  border-radius: 3em;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1;
-  &:hover {
-    background-color: #0f4769;
-    color: white;
+@import "src/styles/main_styles.scss";
+
+.Button {
+  &__button {
+    cursor: pointer;
+    outline: none;
+    background-color: $orange;
+    border-radius: 30px;
+    border: 0;
+    padding: 15px 24px;
+    color: $white;
+    text-decoration: none;
+    &:hover {
+      background: $orange-90;
+      box-shadow: 0px 4px 8px 0px rgba(18, 54, 132, 0.16);
+    }
+    &:active {
+      background: $orange-30;
+      color: $orange;
+    }
+  }
+  &__small {
+    padding: 14px 16px;
+  }
+  &__medium {
+    padding: 11px 24px;
+  }
+
+  &__disable {
+    user-select: none;
+    pointer-events: none;
+
+    button {
+      background-color: $black-30;
+      color: $black-40;
+    }
   }
 }
-.storybook-button--primary {
-  color: white;
-  background-color: #1ea7fd;
+
+.SecondaryButtonLight {
+  &__button {
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border-radius: 30px;
+    border: solid $black 2px;
+    padding: 15px 40px;
+    &:hover {
+      background: $black-30;
+      box-shadow: 0px 4px 8px 0px rgba(18, 54, 132, 0.16);
+    }
+    &:active {
+      background: $black-10;
+      color: $black-70;
+      border: solid $black-40 2px;
+    }
+  }
+
+  &__disable {
+    user-select: none;
+    pointer-events: none;
+
+    button {
+      background-color: transparent;
+      color: $black-40;
+      border: solid $black-30 2px;
+    }
+  }
 }
-.storybook-button--secondary {
-  color: #333;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
-}
-.storybook-button--small {
-  font-size: 12px;
-  padding: 10px 16px;
-}
-.storybook-button--medium {
-  font-size: 14px;
-  padding: 11px 20px;
-}
-.storybook-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
+
+.SecondaryButton {
+  &__button {
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border-radius: 30px;
+    border: solid $white 2px;
+    padding: 15px 40px;
+    color: $white;
+    &:hover {
+      background: $white;
+      color: $black;
+      box-shadow: 0px 4px 8px 0px rgba(18, 54, 132, 0.16);
+    }
+    &:active {
+      background: $black-40;
+      color: $black-70;
+      border: solid $black-40 2px;
+    }
+  }
+
+  &__disable {
+    user-select: none;
+    pointer-events: none;
+
+    button {
+      background-color: transparent;
+      color: $black-40;
+      border: solid $black-30 2px;
+    }
+  }
 }

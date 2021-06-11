@@ -15,22 +15,34 @@ const Template = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
-  label: "Button",
+  text: "Button",
+  className: "Button",
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  label: "Button",
+  text: "Button",
+  className: "SecondaryButton",
+  size: "large",
 };
 
 export const Large = Template.bind({});
 Large.args = {
   size: "large",
-  label: "Button",
+  text: "Button",
+  className: "Button",
+};
+
+export const Medium = Template.bind({});
+Medium.args = {
+  size: "medium",
+  text: "Button",
+  className: "Button",
 };
 
 export const Small = Template.bind({});
 Small.args = {
   size: "small",
-  label: "Button",
+  text: "Button",
+  className: "Button",
 };

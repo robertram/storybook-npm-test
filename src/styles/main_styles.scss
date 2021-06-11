@@ -1,0 +1,13 @@
+@import "_settings/main";
+@import "_tools/main";
+@import "_trumps/main";
+
+html body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $regular-size;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+$font-family: "Avenir Next", Helvetica, Arial, sans-serif;

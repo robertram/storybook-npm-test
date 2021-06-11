@@ -1,0 +1,28 @@
+$dark-mode: false;
+
+//Pimary
+$black: #121212;
+$black-90: #252525;
+$black-70: #393838;
+$black-50: #716d6d;
+$black-40: #8c8a8a;
+$black-30: #cdcbcb;
+$black-10: #f2f1f1;
+$white: #ffffff;
+
+//Secondary
+$orange: #ff4712;
+$orange-90: #ff6938;
+$orange-50: #ff9869;
+$orange-70: #ffba91;
+$orange-30: #ffd8b9;
+$orange-10: #fff4eb;
+
+//Semantics
+$blue-information: #2a00f9;
+$green-approved: #77a21e;
+$yellow-warning: #ffaf0b;
+$red-error: if($dark-mode, #fe7273, #c30000);
+
+//Overlay
+$overlay: #121212;

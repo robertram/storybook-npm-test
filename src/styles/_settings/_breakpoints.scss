@@ -1,0 +1,16 @@
+/* 
+ Material Design breakpoints
+ https://material-ui.com/customization/breakpoints/
+ value         |0px     600px    960px    1280px   1920px
+ key           |xs      sm       md       lg       xl
+ screen width  |--------|--------|--------|--------|-------->
+ range         |   xs   |   sm   |   md   |   lg   |   xl
+*/
+
+// Small tablets and large smartphones (landscape view)
+$breakpoint_sm_min: '600px';
+// Tablets and small desktops
+$breakpoint_md_min: '960px';
+// Large tablets and desktops
+$breakpoint_lg_min: '1280px';
+$breakpoint_xl_min: '1920px';
