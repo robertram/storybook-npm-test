@@ -1,28 +1,74 @@
-$dark-mode: false;
-
-//Pimary
 $black: #121212;
-$black-90: #252525;
-$black-70: #393838;
-$black-50: #716d6d;
-$black-40: #8c8a8a;
-$black-30: #cdcbcb;
-$black-10: #f2f1f1;
 $white: #ffffff;
 
-//Secondary
-$orange: #ff4712;
-$orange-90: #ff6938;
-$orange-50: #ff9869;
-$orange-70: #ffba91;
-$orange-30: #ffd8b9;
-$orange-10: #fff4eb;
+//Pimary
+$primary-900: #00417c;
+$primary-800: #054f92;
+$primary-700: #066bb4;
+$primary-600: #0089ce;
+$primary-500: #00a1ec;
+$primary-400: #00aeef;
+$primary-300: #43bdf1;
+$primary-200: #7bd0f5;
+$primary-100: #b0e2f9;
+$primary-050: #e0f4fd;
 
-//Semantics
-$blue-information: #2a00f9;
-$green-approved: #77a21e;
-$yellow-warning: #ffaf0b;
-$red-error: if($dark-mode, #fe7273, #c30000);
+//Base
+$base-900: #111827;
+$base-800: #1f2937;
+$base-700: #374151;
+$base-600: #4b5563;
+$base-500: #6b7280;
+$base-400: #9ca3af;
+$base-300: #d1d5db;
+$base-200: #e5e7eb;
+$base-100: #f3f4f6;
+$base-050: #f9fafb;
 
-//Overlay
-$overlay: #121212;
+//Support 1
+$support1-900: #191f4d;
+$support1-800: #242f64;
+$support1-700: #2b3871;
+$support1-600: #33417c;
+$support1-500: #394884;
+$support1-400: #556294;
+$support1-300: #727da6;
+$support1-200: #98a1bf;
+$support1-100: #c0c6d9;
+$support1-050: #e6e8ef;
+
+//Support 2
+$support2-900: #8e2c12;
+$support2-800: #a23619;
+$support2-700: #bb4221;
+$support2-600: #cc4a27;
+$support2-500: #ea6037;
+$support2-400: #f4744f;
+$support2-300: #f58c6e;
+$support2-200: #f7ac97;
+$support2-100: #facdbf;
+$support2-050: #f8e9e8;
+
+//Support 3
+$support3-900: #78350f;
+$support3-800: #92400e;
+$support3-700: #b45309;
+$support3-600: #d97706;
+$support3-500: #f6a60a;
+$support3-400: #fdba1b;
+$support3-300: #fdda57;
+$support3-200: #fde387;
+$support3-100: #feeeb6;
+$support3-050: #fef9e2;
+
+//Support 4
+$support4-900: #196200;
+$support4-800: #338114;
+$support4-700: #3f911f;
+$support4-600: #4ca32b;
+$support4-500: #56b333;
+$support4-400: #6fbe55;
+$support4-300: #89ca74;
+$support4-200: #abd89c;
+$support4-100: #cce7c3;
+$support4-050: #e9f5e6;
