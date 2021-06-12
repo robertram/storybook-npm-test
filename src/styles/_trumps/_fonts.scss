@@ -1,185 +1,173 @@
 .heading1 {
-  @include generate-text-styles('heading1-mob');
+  @include generate-text-styles("heading1-mob");
   @include generate-heading-colors();
   @include md {
-    @include generate-text-styles('heading1-desk');
+    @include generate-text-styles("heading1-desk");
   }
 }
 
 .heading1-mob {
-  @include generate-text-styles('heading1-mob');
+  @include generate-text-styles("heading1-mob");
   @include generate-heading-colors();
 }
 
 .heading1-desk {
-  @include generate-text-styles('heading1-desk');
+  @include generate-text-styles("heading1-desk");
   @include generate-heading-colors();
 }
 
 .heading2 {
-  @include generate-text-styles('heading2-mob');
+  @include generate-text-styles("heading2-mob");
   @include generate-heading-colors();
   @include md {
-    @include generate-text-styles('heading2-desk');
+    @include generate-text-styles("heading2-desk");
   }
 }
 
 .heading2-mob {
-  @include generate-text-styles('heading2-mob');
+  @include generate-text-styles("heading2-mob");
   @include generate-heading-colors();
 }
 
 .heading2-desk {
-  @include generate-text-styles('heading2-desk');
+  @include generate-text-styles("heading2-desk");
   @include generate-heading-colors();
 }
 
 .heading3 {
-  @include generate-text-styles('heading3-mob');
+  @include generate-text-styles("heading3-mob");
   @include generate-heading-colors();
   @include md {
-    @include generate-text-styles('heading3-desk');
+    @include generate-text-styles("heading3-desk");
   }
 }
 
 .heading3-mob {
-  @include generate-text-styles('heading3-mob');
+  @include generate-text-styles("heading3-mob");
   @include generate-heading-colors();
 }
 
 .heading3-desk {
-  @include generate-text-styles('heading3-desk');
+  @include generate-text-styles("heading3-desk");
   @include generate-heading-colors();
 }
 
 .heading4 {
-  @include generate-text-styles('heading4-mob');
+  @include generate-text-styles("heading4-mob");
   @include generate-heading-colors();
   @include md {
-    @include generate-text-styles('heading4-desk');
+    @include generate-text-styles("heading4-desk");
   }
 }
 
 .heading4-mob {
-  @include generate-text-styles('heading4-mob');
+  @include generate-text-styles("heading4-mob");
   @include generate-heading-colors();
 }
 
 .heading4-desk {
-  @include generate-text-styles('heading4-desk');
+  @include generate-text-styles("heading4-desk");
   @include generate-heading-colors();
 }
 
 .subtitle {
-  @include generate-text-styles('subtitle-mob');
+  @include generate-text-styles("subtitle-mob");
   @include generate-subtitles-colors();
   @include md {
-    @include generate-text-styles('subtitle-desk');
+    @include generate-text-styles("subtitle-desk");
   }
 }
 
 .subtitle-mob {
-  @include generate-text-styles('subtitle-mob');
+  @include generate-text-styles("subtitle-mob");
   @include generate-subtitles-colors();
 }
 
 .subtitle-desk {
-  @include generate-text-styles('subtitle-desk');
+  @include generate-text-styles("subtitle-desk");
   @include generate-subtitles-colors();
 }
 
 .body-sm-regular {
-  @include generate-text-styles('body-sm-regular');
+  @include generate-text-styles("body-sm-regular");
   @include generate-body-colors();
 }
 
 .body-md-regular {
-  @include generate-text-styles('body-md-regular');
+  @include generate-text-styles("body-md-regular");
   @include generate-body-colors();
 }
 
 .body-lg-regular {
-  @include generate-text-styles('body-lg-regular');
+  @include generate-text-styles("body-lg-regular");
   @include generate-body-colors();
 }
 
 .body-sm-bold {
-  @include generate-text-styles('body-sm-bold');
+  @include generate-text-styles("body-sm-bold");
   @include generate-body-colors();
 }
 
 .body-md-bold {
-  @include generate-text-styles('body-md-bold');
+  @include generate-text-styles("body-md-bold");
   @include generate-body-colors();
 }
 
 .body-lg-bold {
-  @include generate-text-styles('body-lg-bold');
+  @include generate-text-styles("body-lg-bold");
   @include generate-body-colors();
 }
 
 .body-sm-italic {
-  @include generate-text-styles('body-sm-italic');
+  @include generate-text-styles("body-sm-italic");
   @include generate-body-colors();
 }
 
 .body-md-italic {
-  @include generate-text-styles('body-md-italic');
+  @include generate-text-styles("body-md-italic");
   @include generate-body-colors();
 }
 
 .body-lg-italic {
-  @include generate-text-styles('body-lg-italic');
+  @include generate-text-styles("body-lg-italic");
   @include generate-body-colors();
 }
 
 .body-sm-underline {
-  @include generate-text-styles('body-sm-underline');
+  @include generate-text-styles("body-sm-underline");
   @include generate-body-colors();
 }
 
 .button-primary-l {
-  @include generate-text-styles('button-primary-l');
+  @include generate-text-styles("button-primary-l");
   @include generate-buttons-colors();
 }
 
 .button-primary-m {
-  @include generate-text-styles('button-primary-m');
+  @include generate-text-styles("button-primary-m");
   @include generate-buttons-colors();
 }
 
 .button-primary-s {
-  @include generate-text-styles('button-primary-s');
+  @include generate-text-styles("button-primary-s");
   @include generate-buttons-colors();
 }
 
 .button-bold {
-  @include generate-text-styles('button-primary');
+  @include generate-text-styles("button-primary");
   @include generate-buttons-colors();
 }
 
 .button-link {
-  @include generate-text-styles('button-underline');
+  @include generate-text-styles("button-underline");
   @include generate-buttons-underline-colors();
 }
 
 .button-underline {
-  @include generate-text-styles('button-underline');
+  @include generate-text-styles("button-underline");
   @include generate-buttons-underline-colors();
 }
 
 .alert {
-  @include generate-text-styles('alert');
-  &--success {
-    color: $green-approved;
-  }
-  &--warning {
-    color: $yellow-warning;
-  }
-  &--info {
-    color: $blue-information;
-  }
-  &--error {
-    color: $red-error;
-  }
+  @include generate-text-styles("alert");
 }

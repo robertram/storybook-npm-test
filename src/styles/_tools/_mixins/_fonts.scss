@@ -18,12 +18,12 @@
  */
 @mixin generate-body-font-sm($font) {
   @include generate-body-colors();
-  @include generate-text-styles('body-sm-#{$font}');
+  @include generate-text-styles("body-sm-#{$font}");
   @include md {
-    @include generate-text-styles('body-md-#{$font}');
+    @include generate-text-styles("body-md-#{$font}");
   }
   @include lg {
-    @include generate-text-styles('body-lg-#{$font}');
+    @include generate-text-styles("body-lg-#{$font}");
   }
 }
 
@@ -34,9 +34,9 @@
  */
 @mixin generate-body-font-md($font) {
   @include generate-body-colors();
-  @include generate-text-styles('body-md-#{$font}');
+  @include generate-text-styles("body-md-#{$font}");
   @include lg {
-    @include generate-text-styles('body-lg-#{$font}');
+    @include generate-text-styles("body-lg-#{$font}");
   }
 }
 
@@ -49,9 +49,6 @@
   }
   &--black {
     color: $black;
-  }
-  &--orange {
-    color: $orange;
   }
 }
 
@@ -77,21 +74,6 @@
   &--black {
     color: $black;
   }
-  &--orange {
-    color: $orange;
-  }
-  &--black-30 {
-    color: $black-30;
-  }
-  &--black-40 {
-    color: $black-40;
-  }
-  &--orange-50 {
-    color: $orange-50;
-  }
-  &--black-70 {
-    color: $black-70;
-  }
 }
 
 /**
@@ -100,18 +82,6 @@
 @mixin generate-buttons-underline-colors {
   &--black {
     color: $black;
-  }
-  &--black-30 {
-    color: $black-30;
-  }
-  &--black-50 {
-    color: $black-50;
-  }
-  &--orange {
-    color: $orange;
-  }
-  &--orange-50 {
-    color: $orange-50;
   }
 }
 
@@ -124,11 +94,5 @@
   }
   &--black {
     color: $black;
-  }
-  &--black-70 {
-    color: $black-70;
-  }
-  &--black-30 {
-    color: $black-30;
   }
 }

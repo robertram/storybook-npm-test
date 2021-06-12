@@ -4,19 +4,19 @@
   &__button {
     cursor: pointer;
     outline: none;
-    background-color: $orange;
+    background-color: $support3-900;
     border-radius: 30px;
     border: 0;
     padding: 15px 24px;
     color: $white;
     text-decoration: none;
     &:hover {
-      background: $orange-90;
+      background: $support3-900;
       box-shadow: 0px 4px 8px 0px rgba(18, 54, 132, 0.16);
     }
     &:active {
-      background: $orange-30;
-      color: $orange;
+      background: $support3-900;
+      color: $support3-900;
     }
   }
   &__small {
@@ -31,8 +31,8 @@
     pointer-events: none;
 
     button {
-      background-color: $black-30;
-      color: $black-40;
+      background-color: $base-900;
+      color: $base-600;
     }
   }
 }
@@ -46,13 +46,13 @@
     border: solid $black 2px;
     padding: 15px 40px;
     &:hover {
-      background: $black-30;
+      background: $base-900;
       box-shadow: 0px 4px 8px 0px rgba(18, 54, 132, 0.16);
     }
     &:active {
-      background: $black-10;
-      color: $black-70;
-      border: solid $black-40 2px;
+      background: $base-900;
+      color: $base-600;
+      border: solid $base-900 2px;
     }
   }
 
@@ -62,8 +62,8 @@
 
     button {
       background-color: transparent;
-      color: $black-40;
-      border: solid $black-30 2px;
+      color: $base-900;
+      border: solid $base-600 2px;
     }
   }
 }
@@ -79,13 +79,13 @@
     color: $white;
     &:hover {
       background: $white;
-      color: $black;
+      color: $base-900;
       box-shadow: 0px 4px 8px 0px rgba(18, 54, 132, 0.16);
     }
     &:active {
-      background: $black-40;
-      color: $black-70;
-      border: solid $black-40 2px;
+      background: $base-900;
+      color: $base-600;
+      border: solid $base-900 2px;
     }
   }
 
@@ -95,8 +95,8 @@
 
     button {
       background-color: transparent;
-      color: $black-40;
-      border: solid $black-30 2px;
+      color: $base-900;
+      border: solid $base-600 2px;
     }
   }
 }
