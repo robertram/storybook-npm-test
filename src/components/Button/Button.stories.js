@@ -3,11 +3,8 @@ import React from "react";
 import { Button } from "./Button";
 
 export default {
-  title: "Example/Button",
+  title: "Components/Button",
   component: Button,
-  argTypes: {
-    backgroundColor: { control: "color" },
-  },
 };
 
 const Template = (args) => <Button {...args} />;
@@ -20,32 +17,37 @@ Primary.args = {
 export const PrimaryDisabled = Template.bind({});
 PrimaryDisabled.args = {
   text: "Button",
-  isLoading: true,
+  disabled: true,
 };
 
 export const Secondary = Template.bind({});
-Secondary.args = { text: "Button", secondary: true, size: "large" };
+Secondary.args = { text: "Button", secondary: true };
 
 export const SecondaryDisabled = Template.bind({});
-SecondaryDisabled.args = { text: "Button", secondary: true, size: "large" };
+SecondaryDisabled.args = { text: "Button", secondary: true, disabled: true };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: "large",
+export const LinkButton = Template.bind({});
+LinkButton.args = { text: "Button", linkButton: true };
+
+export const LinkButtonDisabled = Template.bind({});
+LinkButtonDisabled.args = { text: "Button", linkButton: true, disabled: true };
+
+export const LinkButtonSmall = Template.bind({});
+LinkButtonSmall.args = { text: "Button", linkButtonSmall: true };
+
+export const LinkButtonSmallDisabled = Template.bind({});
+LinkButtonSmallDisabled.args = {
   text: "Button",
-  className: "Button",
+  linkButtonSmall: true,
+  disabled: true,
 };
 
-export const Medium = Template.bind({});
-Medium.args = {
-  size: "medium",
-  text: "Button",
-  className: "Button",
-};
+export const Fab = Template.bind({});
+Fab.args = { text: "Button", fab: true };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: "small",
+export const FabDisabled = Template.bind({});
+FabDisabled.args = {
   text: "Button",
-  className: "Button",
+  fab: true,
+  disabled: true,
 };

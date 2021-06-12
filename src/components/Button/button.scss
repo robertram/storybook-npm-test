@@ -59,3 +59,59 @@
     }
   }
 }
+
+.LinkButton {
+  &__button {
+    cursor: pointer;
+    outline: none;
+    background-color: $white;
+    color: $primary-800;
+    border: none;
+    &:hover {
+      text-decoration-line: underline;
+      color: $primary-800;
+    }
+    &:active {
+      color: $primary-900;
+    }
+  }
+
+  &__disable {
+    user-select: none;
+    pointer-events: none;
+
+    button {
+      color: $base-300;
+    }
+  }
+}
+
+.Fab {
+  &__button {
+    cursor: pointer;
+    outline: none;
+    background-color: $white;
+    color: $primary-500;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(115, 115, 124, 0.15);
+    border-radius: 50%;
+    padding: 10px 4px;
+    &:hover {
+      color: $primary-500;
+      box-shadow: 0px 8px 16px rgba(115, 115, 124, 0.2);
+    }
+    &:active {
+      box-shadow: 0px 8px 16px rgba(115, 115, 124, 0.2);
+      color: $primary-700;
+    }
+  }
+
+  &__disable {
+    user-select: none;
+    pointer-events: none;
+
+    button {
+      color: $base-300;
+    }
+  }
+}

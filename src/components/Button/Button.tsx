@@ -13,6 +13,7 @@ export interface Props {
   primary?: boolean;
   secondary?: boolean;
   linkButton?: boolean;
+  linkButtonSmall?: boolean;
   fab?: boolean;
 }
 
@@ -25,19 +26,20 @@ const getParentClass = (props: Props) => {
 };
 
 const getButtonClass = (props: Props) => {
-  const { primary, secondary, linkButton, fab } = props;
+  const { primary, secondary, linkButton, fab, linkButtonSmall } = props;
   if (primary) className = "Button";
   if (secondary) className = "SecondaryButton";
   if (linkButton) className = "LinkButton";
+  if (linkButtonSmall) className = "button-primary-s LinkButton";
   if (fab) className = "Fab";
   return `${className}__button button-primary-l `;
 };
 
 export const Button = (props: Props) => {
-  const { action, text, url, targetBlank, rightArrow, leftArrow } = props;
+  const { action, text, url, targetBlank, rightArrow, leftArrow, fab } = props;
   const buttonEl = (
     <button onClick={action} className={getButtonClass(props)} type="button">
-      {text}
+      {fab ? <>fab icon</> : text}
     </button>
   );
   const hrefEl = (
@@ -49,7 +51,7 @@ export const Button = (props: Props) => {
           type="button"
         >
           {leftArrow && <img src="" />}
-          {text}
+          {fab ? <>fab icon</> : text}
           {rightArrow && <img src="" />}
         </button>
       </a>
