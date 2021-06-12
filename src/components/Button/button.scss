@@ -4,55 +4,19 @@
   &__button {
     cursor: pointer;
     outline: none;
-    background-color: $support3-900;
+    background-color: $primary-700;
     border-radius: 30px;
     border: 0;
-    padding: 15px 24px;
+    padding: 12px 16px;
     color: $white;
     text-decoration: none;
     &:hover {
-      background: $support3-900;
-      box-shadow: 0px 4px 8px 0px rgba(18, 54, 132, 0.16);
+      background: $primary-800;
+      box-shadow: 0px 4px 12px rgba(115, 115, 124, 0.15);
     }
     &:active {
-      background: $support3-900;
-      color: $support3-900;
-    }
-  }
-  &__small {
-    padding: 14px 16px;
-  }
-  &__medium {
-    padding: 11px 24px;
-  }
-
-  &__disable {
-    user-select: none;
-    pointer-events: none;
-
-    button {
-      background-color: $base-900;
-      color: $base-600;
-    }
-  }
-}
-
-.SecondaryButtonLight {
-  &__button {
-    cursor: pointer;
-    outline: none;
-    background-color: transparent;
-    border-radius: 30px;
-    border: solid $black 2px;
-    padding: 15px 40px;
-    &:hover {
-      background: $base-900;
-      box-shadow: 0px 4px 8px 0px rgba(18, 54, 132, 0.16);
-    }
-    &:active {
-      background: $base-900;
-      color: $base-600;
-      border: solid $base-900 2px;
+      background: $primary-900;
+      box-shadow: 0px 4px 12px rgba(115, 115, 124, 0.15);
     }
   }
 
@@ -61,9 +25,7 @@
     pointer-events: none;
 
     button {
-      background-color: transparent;
-      color: $base-900;
-      border: solid $base-600 2px;
+      background-color: $base-300;
     }
   }
 }
@@ -72,20 +34,17 @@
   &__button {
     cursor: pointer;
     outline: none;
-    background-color: transparent;
     border-radius: 30px;
-    border: solid $white 2px;
-    padding: 15px 40px;
-    color: $white;
+    padding: 12px 16px;
+    border: solid $base-300 1px;
+    background-color: $white;
+    color: $primary-800;
     &:hover {
-      background: $white;
-      color: $base-900;
-      box-shadow: 0px 4px 8px 0px rgba(18, 54, 132, 0.16);
+      background-color: $base-050;
     }
     &:active {
-      background: $base-900;
+      background: $base-100;
       color: $base-600;
-      border: solid $base-900 2px;
     }
   }
 
@@ -94,9 +53,9 @@
     pointer-events: none;
 
     button {
-      background-color: transparent;
-      color: $base-900;
-      border: solid $base-600 2px;
+      background-color: $white;
+      color: $base-300;
+      border: solid $base-300 1px;
     }
   }
 }

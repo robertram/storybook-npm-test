@@ -14,17 +14,20 @@ const Template = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  primary: true,
   text: "Button",
-  className: "Button",
+};
+
+export const PrimaryDisabled = Template.bind({});
+PrimaryDisabled.args = {
+  text: "Button",
+  isLoading: true,
 };
 
 export const Secondary = Template.bind({});
-Secondary.args = {
-  text: "Button",
-  className: "SecondaryButton",
-  size: "large",
-};
+Secondary.args = { text: "Button", secondary: true, size: "large" };
+
+export const SecondaryDisabled = Template.bind({});
+SecondaryDisabled.args = { text: "Button", secondary: true, size: "large" };
 
 export const Large = Template.bind({});
 Large.args = {

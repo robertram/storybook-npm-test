@@ -9,7 +9,12 @@
     "jsx": "react",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/src/*": ["src/*"],
+      "@/assets/*": ["public/assets/*"],
+    }
   },
   "include": ["src/**/*"],
   "exclude": [
@@ -18,5 +23,5 @@
     "storybook-static",
     "src/**/*.stories.tsx",
     "src/**/*.test.tsx"
-  ]
+  ],
 }
